@@ -1,0 +1,385 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo{
+    display: flex;
+    
+}
+.logo h1{
+    margin-left: 20px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+} .menu a:hover{
+    border-bottom: 2px solid #FF5400;
+}
+.hamburger{
+    display: none;
+}
+span{
+    color:#FF5400 ;
+} 
+p{
+    color: gray;
+}
+section{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+} .explore{
+    height: 500px;
+    
+    background: linear-gradient( rgba(0, 13, 13, 0.7), rgba(41, 41, 2, 0.7)), url(./Group\ 13\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    
+    
+    
+}
+.explore-text{
+    color: white;
+    text-align: center;
+    
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 50px;
+    
+} .explore-input{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.237);
+    height: 80px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+    
+    
+} .explore-input input{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    
+    
+    
+
+} .explore-input select{
+    width: 20%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: white;
+    border: none;
+    color: gray;
+    
+    
+}
+
+ button{
+    background-color: #FF5400;
+    color: white;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+
+} button:hover{ background-color: aqua;
+       padding: 15px 35px;
+
+}
+ .popular{
+    display: flex;
+    justify-content: space-evenly;}   
+ .popular-text{
+    width: 50%;
+    color: rgba(128, 128, 128, 0.888);
+    margin-right: 20px;
+    
+    box-shadow: 0px 0 1px gray;
+    padding: 50px;
+    border-radius: 5px;
+
+} 
+.popular-image img {
+    
+    height: 100%;
+    width: 100%;
+}
+ .popular-image{
+    width: 50%;
+}  
+
+.destination-text{
+    text-align: center;
+    width: 50%;
+    height: 150px;
+    margin: 0 auto;
+    
+}
+ .row1, .row2, .row3{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.row1 .country-image1{
+    width: 48%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 5.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row1 .country-image2{
+    width: 48%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 8.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row2 .country-image3{
+    width: 33%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 6.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row2 .country-image4{
+    width: 38%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    border-radius: 10px;
+    background-image: url(./Rectangle\ 7.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row2 .country-image5{
+    width: 24%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 9.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row3 .country-image6{
+    width: 40%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 11.png);
+    background-repeat: repeat;
+    background-size: cover;
+} 
+.row3 .country-image7{
+    width: 57%;
+    height: 300px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    align-content: center;
+    background-image: url(./Rectangle\ 10.png);
+    background-repeat: repeat;
+    background-size: cover;
+} .chooses-text{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+} 
+.chooses{ 
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: " a a b b"
+    ". c c .";
+    margin: 0 auto;
+    padding: 50px;
+    gap: 20px;
+    
+    
+
+} .choose-item1{  
+    padding: 30px;
+    background-color:#f7a94421 ;
+    border-radius: 10px;
+    grid-area: a;
+
+} .choose-item2{ 
+    grid-area: b;
+    padding: 30px;
+    background-color:#96e9fe3a ;
+    border-radius: 10px;
+}
+.choose-item3{ 
+    
+    grid-area: c;
+    
+    padding: 30px;
+    background-color:#fad9af4c ;
+    border-radius: 10px;
+    
+}
+.deals-text{
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    text-align: center;
+} .deals-card{
+    height: 500px;
+    margin-top: 20px;
+    background-image: url(./Group\ 39.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+} .inner{
+    width: 40%;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.778);
+    transform: translate(100%,15% );
+    border-radius: 10px;
+    padding: 40px;
+   
+} .icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+   
+    
+} .icon1, .icon2, .icon3{
+    display: flex;
+    
+    align-items: center;
+} .icon1 img, .icon2 img, .icon3 img{
+    width: 30px;
+    height: 30px;
+} .deals-card1{
+    height: 500px;
+    margin-top: 20px;
+    background-image: url(./Group\ 40.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+        border-radius: 20px;}
+        .inner1{
+            width: 40%;
+            height: 300px;
+            background-color: rgba(255, 255, 255, 0.759);
+            transform: translate(10%,15% );
+            border-radius: 10px;
+            padding: 40px;}
+            
+         .btn{
+            width: 20%;
+            margin: 0 auto;
+            margin-top: 30px;
+         } 
+         .video-container{ 
+            margin: 100px 0px;
+            display: flex;
+            justify-content: space-between;
+            
+
+         } .video-container-text{
+            width: 50%;
+            margin-right: 20px;
+            padding: 20px;
+            
+            box-shadow: 0px .5px 0px gray,-0px -.5px 0px gray;
+            
+         } .video{
+            width: 50%;
+            box-shadow: 2px 2px 2px gray,-2px -2px 2px gray;
+           box-sizing: border-box;
+            border: 1px solid gray;
+         } .form{
+            display: flex;
+            justify-content: space-between;
+            margin: 100px 0px;
+         } .input-form{
+            width: 35%;
+            
+            border: 1px solid red;
+            padding: 40px 0 0px 40px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px #FF5400, -1px -1px 3px #FF5400;
+        
+         } .input-form input{
+            width: 90%;
+            height: 40px;
+            border: none;
+            margin-top: 10px;
+            background-color: rgba(128, 128, 128, 0.151);
+            border-radius: 10px;
+            
+         } .input-form button{
+            width: 90%;
+            margin-top: 20px;
+         }
+         hr{
+            width: 90%;
+            margin-right: 100px;
+         } .input-image{
+            width: 60%;
+            height: 400px;
+            background-image: url(./Rectangle\ 8\ \(1\).png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            border-radius: 10px;
+            object-fit: cover;
+         } .internal{
+            background-color: #FF5400;
+            padding: 10px 20px;
+            width: 30%;
+            border-radius: 10px;
+            text-align: center;
+            transform: translate(177%,177%) rotate(-25deg) ;
+            
+         } footer{
+            background-color: rgba(128, 128, 128, 0.256);
+            margin-top: 50px;
+            height: 400px;
+         }
+          .footer-text{
+            width: 60%;
+            margin: 0 auto;
+            align-content: center;
+            height: 400px;
+         }
+         .hero{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            
+         } .footer-button{
+            text-align: center;
+         }
+         .btn1{
+            background: none;
+            color: black;
+            font-size: 20px;
+            
+         }
